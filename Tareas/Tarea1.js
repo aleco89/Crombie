@@ -1,4 +1,4 @@
-
+//Casos:
 const personA={
     age:20,
     hasDocument:false
@@ -15,7 +15,7 @@ const personD={
     age:22,
     hasDocument:false
 }
-
+//Función
 function canPass(person){
     if (person.age>=18 && person.age<=20 && person.hasDocument==true){
        return "pudiste pasar con tu documento";  
@@ -25,7 +25,7 @@ function canPass(person){
         return "no pudiste pasar";
     }
 }
-
+//Resultados
 console.log(canPass(personA));
 console.log(canPass(personB));
 console.log(canPass(personC));
