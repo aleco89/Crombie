@@ -7,7 +7,7 @@ function longestString(s1, s2) {
   }
 }
 
-//Recibir un arreglo y un string, devolver el índice en que se encuentra la palabra. Si no la encuentra retornar -1
+//Recibir un arreglo y un string, devolver el índice en que se encuentra la palabra. Si no la encuentra retornar -1.
 function exists({ a, s }) {
   if (a.includes(s)) {
     return "La palabra se encuentra en el índice: " + a.indexOf(s);
