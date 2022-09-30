@@ -1,4 +1,4 @@
-//ejercicio 1
+//ejercicio A
 let notas = [5, 6, 10, 8, 3, 9];
 notaMenor = notas[0];
 
@@ -9,7 +9,7 @@ for (i = 0; i < notas.length; i++) {
 }
 console.log("La nota menor es: " + notaMenor);
 
-//ejercicio 2
+//ejercicio B
 
 let alumnos = [
   { alumno: "Ana", nota: 8 },
@@ -31,7 +31,8 @@ console.log("El o los alumnos con mejor nota son:")
 console.log(alumnoMayorNota);
 
 
-//ejercicio 3
+//ejercicio C
+
 arrayNumeros = [5, 6, 22, 9, 13, 8, 3, 10, 2, 7];
 
 for (i=0;i<arrayNumeros.length;i++){
@@ -45,8 +46,7 @@ for (i=0;i<arrayNumeros.length;i++){
 console.log("Secuencia ordenada:")
 console.log(arrayNumeros)
 
-//ejercicio 4
-//Opcion A:
+//ejercicio D
 arrayCaracteres= ["C", "r", "o", "N", "o", "P", "i", "o", "S"]
 mayusculas=[]
 
