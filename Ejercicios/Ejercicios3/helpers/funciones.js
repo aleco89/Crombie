@@ -8,7 +8,7 @@ function longestString(s1, s2) {
 }
 
 //Recibir un arreglo y un string, devolver el índice en que se encuentra la palabra. Si no la encuentra retornar -1
-function exist({ a, s }) {
+function exists({ a, s }) {
   if (a.includes(s)) {
     return "La palabra se encuentra en el índice: " + a.indexOf(s);
   } else {
@@ -22,4 +22,4 @@ function sayFullName(obj) {
 }
 
 //EXPORT:
-module.exports = { longestString, exist, sayFullName };
+module.exports = { longestString, exists, sayFullName };

@@ -10,7 +10,7 @@ console.log(funciones.longestString(str1, str2));
 
 arr=["Esto", "es", "un", "hola", "mundo"];
 str="hola";
-console.log(funciones.exist({ a: arr, s: str }));
+console.log(funciones.exists({ a: arr, s: str }));
 
 //Solución C
 
