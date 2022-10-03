@@ -1,15 +1,15 @@
 
-let funciones = require("./helpers/funciones")
+const funciones = require("./helpers/funciones")
 
 //Solución A
-str1="escritorio"
-str2="silla"
+const str1="escritorio"
+const str2="silla"
 console.log(funciones.longestString(str1, str2));
 
 //Solución B
 
-arr=["Esto", "es", "un", "hola", "mundo"];
-str="hola";
+const arr=["Esto", "es", "un", "hola", "mundo"];
+const str="hola";
 console.log(funciones.exists({ a: arr, s: str }));
 
 //Solución C
